@@ -1,0 +1,105 @@
+*{ box-sizing: border-box !important;}
+body{
+padding:0;
+margin:0;
+font-family: 'Montserrat', sans-serif;
+transition:all 0.5s ;}
+html{
+ scroll-behavior: smooth;}
+.back{
+  background: url("../images/banner.webp") center fixed no-repeat ;
+  background-size: cover;}
+.illustration-image{
+  box-shadow:0 0 10px #ccc;}
+::-webkit-scrollbar { width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.navbar{
+  height: 70px !important;
+  font-size:16px;
+  padding:15px;
+  letter-spacing: 3px;
+ color: white !important;
+ z-index: 1000 !important;
+ transition: all 0.3 ease;
+}
+.text-dark {
+color: white !important;
+text-decoration: none;
+letter-spacing: 2px !important;
+padding: 15px 20px;
+}
+
+hr{ 
+  height: 2px;
+  left: 50%;
+  background:#E74352;
+  width: 10px;
+}
+.card-one{
+  height:180px;
+  width:220px;
+}
+.card{
+  border:none;
+  box-shadow: none;
+}
+.card-one:hover{
+  box-shadow:0 0 10px #ccc;   
+
+}
+.card-text{
+  text-align: inherit;
+}
+  .frontend-images{
+    width:370px;
+    justify-content: space-evenly;
+  }
+  .ui-images,.backend-images,.other-images{
+    width:300px;
+    justify-content: space-evenly;
+  }
+  .skills-card{
+    border-radius: 0% !important;
+    box-shadow:0 0 10px #ccc;   
+  } 
+  .social{
+    list-style-type: none;
+    border:2px solid #fff;
+    height:290px;
+    width:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    top:200px;
+    z-index: 9000;
+    right:0;
+    position: fixed;
+    background: white;
+  }
+  
+  .social li{
+    padding:10px 0px;
+    margin-left: -30px;
+  }
+@media (max-width:768px){
+ .quote{
+   font-size: 20px !important;
+ }
+ .social{
+   background: transparent !important;
+   border:none;
+ }
+}
